@@ -35,3 +35,10 @@ jobs:
            python -m build
            ls -R  # Add this line to list files in the working directory
            ls dist  # Add this line to list files in the dist directory
+    - name: Commit changes
+      run: |
+        git config --local user.email "scaxtonemerald@pondiuni.ac.in"
+        git config --local user.name "CaxtonEmerald-S"
+        git add .
+        git commit -m "Build Python package"
+        git push
