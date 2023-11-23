@@ -40,5 +40,5 @@ jobs:
         git config --local user.email "scaxtonemerald@pondiuni.ac.in"
         git config --local user.name "CaxtonEmerald-S"
         git add .
-        git commit -m "Build Python package"
+        # git commit -m "Build Python package"
         git push
