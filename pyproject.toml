@@ -17,7 +17,7 @@ name = "testpypackage_ces"  # Required
 #
 # For a discussion on single-sourcing the version, see
 # https://packaging.python.org/guides/single-sourcing-package-version/
-version = "v0.0.8"  # Required
+version = "v0.0.9"  # Required
 
 # This is a one-line description or tagline of what your project does. This
 # corresponds to the "Summary" metadata field:
@@ -65,7 +65,8 @@ authors = [
 # maintains the project, and a valid email address corresponding to the name
 # listed.
 maintainers = [
-  {name = "Caxton Emerald S", email = "ces.softwaresolutions@gmail.com" } # Optional
+  {name = "Caxton Emerald S", email = "ces.softwaresolutions@gmail.com" },
+  {name = "Vengattaraman T", email = "vengattaraman.t@pondiuni.ac.in" }, # Optional
 ]
 
 # Classifiers help users find your project by categorizing it.
