@@ -56,10 +56,10 @@ keywords = ["neural networks", "ANN", "analysis", "coordinates", "visualise", "f
 # This should be your name or the name of the organization who originally
 # authored the project, and a valid email address corresponding to the name
 # listed.
-#authors = [
-#  {name = "Caxton Emerald S", email = "ces.softwaresolutions@gmail.com" },
-#  {name = "Vengattaraman T", email = "vengattaraman.t@pondiuni.ac.in" }# Optional
-#]
+authors = [
+  {name = "Caxton Emerald S", email = "ces.softwaresolutions@gmail.com" },
+  {name = "Vengattaraman T", email = "vengattaraman.t@pondiuni.ac.in" },# Optional
+]
 
 # This should be your name or the names of the organization who currently
 # maintains the project, and a valid email address corresponding to the name
@@ -148,12 +148,8 @@ dependencies = [ # Optional
 # installed, specify them here.
 # package-data = {"sample" = ["*.dat"]}
 
-[build-system]
+#[build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
-requires = ["setuptools>=43.0.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[metadata]
-author = ["Caxton Emerald S", "Vengattaraman T"]
-author-email = ["ces.softwaresolutions@gmail.com", "vengattaraman.t@pondiuni.ac.in"]
+#requires = ["setuptools>=43.0.0", "wheel"]
+#build-backend = "setuptools.build_meta"
